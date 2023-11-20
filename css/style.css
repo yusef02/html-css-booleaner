@@ -1,37 +1,75 @@
-/* RESETTINGS */
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
 /* HEADER */
-/* SECTION BLOG TAB */
 
-#logo{
-  height: 100%;
-}
-
-.container-img{
-  /* margin-top: 50%; */
-  position: absolute;
-  top: 50%;
-  height: 50%;
-}     /*ho cercato di aggiustare il margine superiore con un margin top o padding top del container, ma continua a prenderlo in riferimento all'antenato html. perciò mi sono arrangiato con l'attributo position */
-
-.blog-bg > .container {
-  height: inherit; 
-  /* padding-top: 50%; */
-  position: relative;
-}
-
-section.blog-bg {
-  height: 5.5em;
-
+header {
+  height: 200px;
+  padding-top: 100px;
+  padding-left: 10px;
   background-color: #4ea0ff;
   background-image: url(../img/pattern.png);
   background-size: contain;
   background-repeat: repeat-x;
+}
+
+.logo {
+  height: 80px;
+}
+
+/* MAIN */
+
+address {
+  color: #969696;
+}
+.date {
+  font-size: 14px;
+}
+address>span>a {
+  text-decoration: none;  
+}
+
+figure {
+  margin: 0;
+}
+
+/* testo importante evidenziato */
+.highlighted {
+  background-color: yellow;
+}
+
+ul {
+  padding-left: 21.6px;
+}
+
+/* tabella lorem */
+.lorem3 {
+  width: 50%;
+}
+th {
+  text-align: left;
+  color: white;
+  background-color: #20a9e5;
+}
+.tr-bg-colored {
+  background-color: #b1e5f2;
+}
+
+
+/* footer */
+
+h2 {
+  font-size: 20px;
+  color: #969696;
+}
+.others1, .others2 {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 20px;
+  color: white;
+}
+.others1 {
+  background-image: url(../img/monitor.jpg);
+  background-size: cover;
+}
+.others2 {
+  background-image: url(../img/graph.jpg);
+  background-size: cover;
 }
